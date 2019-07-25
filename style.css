@@ -1,0 +1,75 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Poppins';
+    text-align: center;
+}
+.conteiner{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+.menu .conteiner{
+    display: flex;
+    padding: 9px 20px;
+    align-items: center;
+}
+header .logo{
+    font-size: 23px;
+    font-weight: bold;
+}
+nav ul li{
+    
+    display: inline-block;
+    margin: 0 20px;
+   
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.imagen{
+    position: relative;
+    width: auto;
+    top: auto;
+    
+}
+.imagen>*{
+    border-radius: 100%;
+    width: 500px; 
+    height:500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+    @media (max-width: 600px) {
+        .imagen>*{
+            border-radius: 100%;
+            width: 200px; 
+            height:200px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto }
+      }
+.cuadroconocimento{
+    background: rgb(240, 240, 240);
+    border-radius: 7px;
+    padding: 20px
+}
+
+.backgr{
+    border: 20px 25px;
+    background: tomato;
+    border-radius:20px ;
+    text-decoration: none;
+    color: black;
+
+}
+.cardimg{
+    border-radius: 5px;
+    width: 50%; 
+    height:75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+
+}
